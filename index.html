@@ -1,62 +1,68 @@
-<canvas id="q" onmousemove="color_random()">
-</canvas>
-<script>
 
-var width = q.width = 2560;
-var height = q.height = 1440;
-var letters = Array(256).join(1).split('');
-
-var draw = function () {
-q.getContext('2d').fillStyle='rgba(0,0,0,.05)';
-q.getContext('2d').fillRect(0,0,width,height);
-q.getContext('2d').fillStyle='rgba(0,327,217,' + ( Math.random() * 5 + 0.80 ) + ')';;
-letters.map(function(y_pos, index){ text = String.fromCharCode(65+Math.random()*33);
-x_pos = index * 10;
-q.getContext('2d').fillText(text, x_pos, y_pos); letters[index] = (y_pos > 758 + Math.random() * 1e4) ? 0 : y_pos + 10;
-});
-}; setInterval(draw, 50);
-function color_random(){ q.getContext('2d').fillStyl = 'red';
-}
-</script>
 
 <!DOCTYPE html>
 
-<html>
-<head> 
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Gosha Archuadze</title>
-	<link rel="stylesheet" href="main.css">
+<html lang="en" >
+<head>
+
+
+  <div class="br"><p class="line-1 anim-typewriter">BrowserNeo password: *********</p>          
+        
+  </div>
+  
+
+  
+    <br>
+    
+
+  <div class="sp-container">
+  <div class="sp-content">
+    <div class="sp-globe"></div>
+    <h2 class="frame-1">generate person ...</h2>
+    <h2 class="frame-2">waiting ...</h2>
+    <h2 class="frame-3">generate accounts ...</h2>
+    <h2 class="frame-4">...ready for test</h2>
+    <h2 class="frame-5">
+      <span><a href="https://github.com/BrowserNeo">github.com</a></span>
+      <span><a href="mailto:7210965@gmail.com">email</a></span>
+      <span><a href="http://t.me/browserneo">telegram</a></span>
+    </h2>
+    <a class="sp-circle-link" href="/">Archuadze_Georgy</a>
+  </div>
+  </div>
+
+
+  <div class="content">
+
+
+  <meta charset="UTF-8">
+  <title>Matrix background</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
+<body>
+
+<!-- partial:index.partial.html -->
+<!--
+  -_-_-_-_-_-_-_-_-_-_-_-_-_-
+  matrix background designed 
+      by\mostafa_shebo 
+  -_-_-_-_-_-_-_-_-_-_-_-_-_-
+-->
+<canvas id="c"></canvas>
+<!--
+  -_-_-_-_-_-_-_-_-_-_-_-_-_-
+  matrix background designed 
+      by\mostafa_shebo 
+  -_-_-_-_-_-_-_-_-_-_-_-_-_-
+-->
+<!-- partial -->
+  <script  src="./script.js"></script>
 
 
-<body class="container">
-		<h1>Gosha</h1>
-
-		<div class="item">
-			<img class="photo" src="me.png" width="170" height="170" alt="фото">
-		</div>
-
-			<p>Дети должны быть очень снисходительны к взрослым.</p>
-
-			<h2>Обо мне</h2>
-
-			<div class="contacts">
-
-				<a href="http://t.me/browserneo">telegram</a> 
-				<br>
-				<a href="mailto:7210965@gmail.com">email</a>
-				<br>
-				<a href="https://github.com/BrowserNeo">github.com</a>
-			</div>
-				<button type="button">Кредо</button>
-				<script type="text/javascript" src="js.js"></script>
 
 </body>
 
+
 </html>
-
-
-
-
 
