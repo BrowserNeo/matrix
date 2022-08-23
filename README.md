@@ -1,5 +1,5 @@
 # matrix
-Сайт визитка, бэкграундом динамичная матрицу рандомных символов (Canvas)
+Сайт визитка, бэкграундом динамичная матрица рандомных символов (Canvas)
 
 Animation (blurFadeIn, fadeInBlack, fadeInRotate)
 
